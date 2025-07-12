@@ -19,14 +19,25 @@ It allows users to **add**, **view**, **edit**, **delete**, and **hide/show** bo
 
 ## 📁 Folder Structure
 
+
 bookerma/
+
 ├── db/
+
 │ ├── db_Connection.php # Database connection file
+
 │ └── db_bookerma.sql # SQL structure for books table
+
 ├── index.php # Main page to view and manage books
+
 ├── create.php # Form to add a new book
+
 ├── edit.php # Form to update book info
+
 ├── delete.php # Script to delete book
+
 ├── include/
+
 │ ├── navbar.php # Reusable top navigation bar
+
   └── footer.php # Reusable footer
